@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CakeShopComponent } from "./features/feature-cake-shop/components/cake-shop/cake-shop.component";
+import { CakeHeaderComponent } from "./layouts/cake-header/cake-header.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CakeShopComponent, CakeHeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
